@@ -3,3 +3,7 @@ fetch("navbar.html")
     .then(data => {
         document.getElementById("navbar").innerHTML = data;
     });
+
+function medal_click(){
+     alert('Yum!');
+}
