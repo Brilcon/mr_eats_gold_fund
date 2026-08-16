@@ -1,0 +1,176 @@
+body{
+    margin:0;
+    font-family:Arial,sans-serif;
+    background:#040b3b;
+    color:white;
+}
+
+footer{
+    padding: 10px;
+    margin-bottom: 0%;
+    background:#1c437e;
+}
+
+.navbar{
+    background:#d4af37;
+    padding:15px;
+    display: flex;
+    align-items: center;
+    padding: 15px;
+}
+
+.navbar a{
+    color:rgb(72, 44, 7);
+    text-decoration:none;
+    margin-right:20px;
+    font-weight:bold;
+    transition: all .3s;
+}
+
+.navbar a:hover{
+    color:white;
+    transform: scale(1.05);
+}
+
+.navbar img{
+    height: 64px;
+    transition: all .3s;
+}
+
+.navbar img:hover{
+	 transform: scale(1.05);
+     transition: all .15s;
+}
+
+
+.navbar_logo_text{
+    display: flex;
+    align-items: center;
+    border-radius: 8px;
+    background:#96681f;
+    height: 40px;
+    margin-right:10px;
+}
+
+.navbar_logo_text a{
+    font-size: xx-large;
+    margin-right:10px;
+    color:white;
+    
+    padding: 3px;
+    
+}
+/* ========= */
+
+main{
+   margin: 10px;
+   padding: 90px;
+}
+
+/* ========= */
+
+.text_box{
+    padding: 20px;
+    margin-right: 600px;
+    /*margin: 60px;
+    margin-top: 20px;*/
+    background-color: #3a4b6e;
+    border-radius: 8px;
+}
+
+.useful_links{
+    display:grid;
+}
+
+.useful_links a{
+
+    font-size: larger;
+    font-weight: bolder;
+    color: rgb(72, 44, 7);
+    background-color: #d4af37;
+
+    padding: 10px;
+    width: fit-content;
+    padding-inline: 20px;
+    margin-top: 5px;
+
+    border-radius: 8px;
+    transition: all .3s;
+}
+
+
+.useful_links a:hover{
+    color:white;
+    transform: scale(1.05);
+    background-color: #b56300;
+}
+
+/* ========= */
+
+.gallery {
+    display: grid;
+
+    grid-template-columns:
+        repeat(auto-fit, minmax(370px, 370px));
+
+    gap: 20px;
+    
+
+    padding: 20px;
+    /* margin: 60px;*/
+    margin-top: 20px;
+}
+
+.image-card {
+    background: #536c86;
+    height: 420px;
+
+    padding: 0px;
+
+    border-radius: 8px;
+
+    text-align: center;
+}
+
+.image-card img {
+    width: 100%;
+    height: 256px;
+    object-fit: cover;
+    
+    border-radius: 8px 8px 0px 0px;
+}
+
+.image-card h2 {
+    color: white;
+    font-weight:700;
+    font-size: 20px;
+    margin: 5px;
+}
+
+.image-card a {
+    display: inline-block;
+    
+    padding: 10px 60px;
+    background: #ffcf33;
+    color: black;
+    text-decoration: none;
+    border-radius: 8px;
+    font-weight: bold;
+}
+
+.image-card p {
+    margin: 12px;
+}
+
+.image-card div {
+    background: #2e487f;
+    border-radius: 8px;
+}
+
+.image-card a:hover {
+    text-decoration: underline;
+    /*background: #ffecbc;
+    padding: 10px 70px;*/
+    /*color: rgb(212, 27, 3);*/
+
+}
