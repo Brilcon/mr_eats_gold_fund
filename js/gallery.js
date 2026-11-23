@@ -1,5 +1,13 @@
 const images = [
     {
+    name: "Mr. Eat's Blender 3D Models",
+    preview: "content/previews/blender_mr_eat_models_cover.png", 
+    
+    file: "content/models/Mr Eat 3D models, Blender.zip",
+    descr: "2 models for Blender - Mr.Eat and Sultan Eat. Face textures included:)"
+    },
+
+    {
     name: "Mr. Eat's Voice Clips",
     preview: "content/previews/Mr. Eat's Voice Clips.png",
     file: "content/sounds/Mr. Eat's Voice Clips.zip",
@@ -7,10 +15,10 @@ const images = [
     },
 
     {
-        name: "Mr. Eat's Music - Classics",
-        preview: "content/previews/mr_eat_music_classics_cover.png",
-        file: "content/sounds/Mr. Eat's music - Classics.zip",
-        descr: "Very old, iconic Mr. Eat's music. Some of them were a little bit remastered to be louder."
+    name: "Mr. Eat's Music - Classics",
+    preview: "content/previews/mr_eat_music_classics_cover.png",
+    file: "content/sounds/Mr. Eat's music - Classics.zip",
+    descr: "Very old, iconic Mr. Eat's music. Some of them were a little bit remastered to be louder."
     },
 
     {
